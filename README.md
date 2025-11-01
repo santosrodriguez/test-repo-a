@@ -1,2 +1,1 @@
-# github-simple-oidc-testing
-A simple example of using OIDC with GitHub Actions and Microsoft Azure
+This workflow manages a Terraform deployment for a single environment.  The environment also uses a dedicated GitHub Environment to store workload identity credentials and secrets for Terraform state file configuration and authentication. As currently written, the workflow supports only one Terraform state file.
